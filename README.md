@@ -49,14 +49,41 @@ There is not a single perfect model that can do everything.
 Each model has a certain purpose. 
 Finding one that can do what you want to do is key.
 
+### LORAs
+If you want to create something specific that no model can do yet.
+For example a very special character that no model was trained on.
+Or a specific activity or art style.
+You do not have to create your own model but can create a LORA. 
+A very lightweight addtional model that is added to your prompt.
+And there are already tons of LORAs for all kinds of things that you can't find in the models yet.
+
+
 ### Generating / Prompting
 Different models work with different tags and settings for the samplers.
 You will have to find out which settings work for what you want to create.
 Typically a goo starting point is the page you download the model from, the author most likely will have some example prompts.
 Additonally if you can find images made with this model you can check with the "Stable Diffusion Webui" feature "PNG Info" with what settings these images are created.
 Add this step we want to create something pretty close to what we envision.
+Don't expect the AI to create the perfect image. 
+You will generate forever if you aim for something more complex.
+
+### ControlNet / Img2Img
+Alternativly to classic prompting which is entirly based on a seed, you can start from an already existing image.
+Either with the option Img2Img or with ControlNet.
+
+#### Img2Img
+
+#### ControlNet
 
 ### Fine-tuning
+After you have a base image that you can't improve with reasonable time with basic prompting you can use different tools to get to the optimal result.
 
+#### Img2Img
+
+#### Inpaint
+
+#### OpenOutpaint
+
+#### 
 
 
